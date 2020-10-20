@@ -11,19 +11,6 @@
 .center{
     text-align: center;
 }
-.detailed-content{
-    padding: 1.3rem;
-    font-size: 1rem;
-}
-code {
-    display: block ;
-     background-color:#f3f3f3;
-     padding: .5rem !important;
-     overflow-y: auto;
-     font-weight: 300;
-     font-family: Menlo, monospace;
-     border-radius: .3rem;
-}
 
 .title-anchor{
     color:#888 !important;
@@ -31,8 +18,11 @@ code {
     margin: 0rem !important;
     height: auto !important;
     line-height: 1.2rem !important;
-    font-size: .9rem !important;
+    font-size: .7rem !important;
     border-bottom: 1px dashed #eee;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .active{
     color:rgb(30, 144, 255) !important;
@@ -42,4 +32,20 @@ code {
     color: #888;
     border-bottom: 1px solid rgb(30, 144, 255);
 
+}
+.article-menu{
+    font-size:12px;
+}
+iframe{
+    height: 34rem;
+}
+
+.title-level3{
+    display: none !important;
+}
+.ant-anchor-link-title{
+    font-size: 12px !important;
+}
+.ant-anchor-wrapper{
+    padding: 5px !important;
 }

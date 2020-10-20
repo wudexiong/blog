@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Header from './Header/'
 import MyMain from './MyMain/'
 import Footer from './Footer/'
-
+import './index.css'
 const Layout = (props) => (
     <>
       <Head>

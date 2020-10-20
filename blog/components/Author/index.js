@@ -1,7 +1,8 @@
 // 作者介绍
 import {Avatar, Divider} from 'antd'
-import './author.css'
 import { GithubOutlined, QqOutlined, WechatOutlined } from '@ant-design/icons'
+import './author.css'
+
 const Author =()=>{
     return (
         <div className="author-div comm-box">
