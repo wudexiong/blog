@@ -44,12 +44,14 @@ module.exports = appInfo => {
   }
   config.security = {
     　　　　csrf: {
-    　　　　　　enable: false
+    　　　　　　enable: false,
+              ignoreJSON: true
     　　　　},
-    　　　　domainWhiteList: [ '*' ]
+    　　　　domainWhiteList: [ 'http://localhost:3000','http://localhost:3001' ]
     　　};
   config.cors = {
-        origin: '*', 
+        // origin: 'http://127.0.0.1:3001', 
+        credentials: true,  //允许Cook可以跨域
         allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
         };
   return {
