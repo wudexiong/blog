@@ -8,10 +8,7 @@ from github import Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
-MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
-[RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
-"""
+MD_HEAD = """## blog"""
 
 BACKUP_DIR = "BACKUP"
 ANCHOR_NUMBER = 5
@@ -148,23 +145,7 @@ def add_md_top(repo, md, me):
             if is_me(issue, me):
                 add_issue_info(issue, md)
 
-
-def add_md_firends(repo, md, me):
-    s = FRIENDS_TABLE_HEAD
-    friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
-    for issue in friends_issues:
-        for comment in issue.get_comments():
-            if is_hearted_by_me(comment, me):
-                try:
-                    s += _make_friend_table_string(comment.body)
-                except Exception as e:
-                    print(str(e))
-                    pass
-    with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 友情链接\n")
-        md.write(s)
-
-
+                
 def add_md_recent(repo, md, me, limit=5):
     count = 0
     with open(md, "a+", encoding="utf-8") as md:
