@@ -3,7 +3,7 @@ name: git issues blog workflow
 on: 
   push:
     branches:
-      - master
+      - main
     paths:
       - 'posts/*.md'
       - 'posts/*/*.md'
@@ -18,9 +18,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       with:
-        ref: master
+        ref: main
     - name: Publish Issues
       uses: ./
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.G_T }}
         POSTS_PATH: 'posts'
