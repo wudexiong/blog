@@ -1,16 +1,18 @@
 ## blog
 ## 最近更新
+- [three.js 放大镜和鸟瞰小窗口视图实现](https://github.com/wudexiong/blog/issues/8)--2022-08-17
 - [git & github学习资源指南](https://github.com/wudexiong/blog/issues/7)--2022-06-29
 - [github 加速器](https://github.com/wudexiong/blog/issues/6)--2022-06-28
 - [记录rollup打包遇到的错误](https://github.com/wudexiong/blog/issues/5)--2022-04-27
 - [关于动态引入相关的问题](https://github.com/wudexiong/blog/issues/4)--2022-04-25
-- [java 入门学习第一天](https://github.com/wudexiong/blog/issues/3)--2022-04-24
 ## bug
 - [记录rollup打包遇到的错误](https://github.com/wudexiong/blog/issues/5)--2022-04-27
 ## git
 - [git & github学习资源指南](https://github.com/wudexiong/blog/issues/7)--2022-06-29
 ## java学习
 - [java 入门学习第一天](https://github.com/wudexiong/blog/issues/3)--2022-04-24
+## three
+- [three.js 放大镜和鸟瞰小窗口视图实现](https://github.com/wudexiong/blog/issues/8)--2022-08-17
 ## 工具
 - [github 加速器](https://github.com/wudexiong/blog/issues/6)--2022-06-28
 ## 心得体会
