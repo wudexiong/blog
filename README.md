@@ -10,7 +10,7 @@
 ## git
 - [git & github学习资源指南](https://github.com/wudexiong/blog/issues/7)--2022-06-29
 ## java学习
-- [java 入门学习第一天](https://github.com/wudexiong/blog/issues/3)--2022-04-24
+- [java 入门](https://github.com/wudexiong/blog/issues/3)--2022-04-24
 ## three
 - [three.js 放大镜和鸟瞰小窗口视图实现](https://github.com/wudexiong/blog/issues/8)--2022-08-17
 ## 工具
