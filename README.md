@@ -2,7 +2,7 @@
 ## 最近更新
 - [three.js 放大镜和鸟瞰小窗口视图实现](https://github.com/wudexiong/blog/issues/8)--2022-08-17
 - [git & github学习资源指南](https://github.com/wudexiong/blog/issues/7)--2022-06-29
-- [github 加速器](https://github.com/wudexiong/blog/issues/6)--2022-06-28
+- [github 加速器:FastGithub](https://github.com/wudexiong/blog/issues/6)--2022-06-28
 - [记录rollup打包遇到的错误](https://github.com/wudexiong/blog/issues/5)--2022-04-27
 - [关于动态引入相关的问题](https://github.com/wudexiong/blog/issues/4)--2022-04-25
 ## bug
@@ -14,7 +14,7 @@
 ## three
 - [three.js 放大镜和鸟瞰小窗口视图实现](https://github.com/wudexiong/blog/issues/8)--2022-08-17
 ## 工具
-- [github 加速器](https://github.com/wudexiong/blog/issues/6)--2022-06-28
+- [github 加速器:FastGithub](https://github.com/wudexiong/blog/issues/6)--2022-06-28
 ## 心得体会
 - [观后感：【罗辑思维】怎样成为一个高手](https://github.com/wudexiong/blog/issues/2)--2022-04-23
 ## 碎碎念
