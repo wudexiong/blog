@@ -20,6 +20,7 @@
 ## 碎碎念
 - [gitblog issues 写博客的初心](https://github.com/wudexiong/blog/issues/1)--2022-04-21
 ## 英语
+- [句子成分](https://github.com/wudexiong/blog/issues/11)--2023-06-07
 - [英语 元音](https://github.com/wudexiong/blog/issues/10)--2023-06-04
 ## 遇到的问题
 - [关于动态引入相关的问题](https://github.com/wudexiong/blog/issues/4)--2022-04-25
